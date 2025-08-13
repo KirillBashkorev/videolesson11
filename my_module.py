@@ -1,15 +1,8 @@
+import tkinter as tk
 
-pi = 3.14
-def summa(a:int, b:float)-> int:
+def study_entry():
+    window = tk.Toplevel()
+    window.title("Поля ввода")
+    window.geometry("300x200")
     
-    '''
-    эта функция a+b
-    '''
-    return a + b
-
-
-print(2,__name__)
-if __name__ == '__main__':
-    print('самостоятельный запуск')
-else:
-    print('импортирован')
+ 
