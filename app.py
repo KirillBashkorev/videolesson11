@@ -1,5 +1,6 @@
 import tkinter as tk
 from my_module import study_entry
+from study_radiobutton import study_radio
 
 if __name__ == '__main__':
     root = tk.Tk()
