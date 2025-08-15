@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
+
 def study_radio():
     """Изучение радиокнопок"""
     window = tk.Toplevel()
