@@ -19,3 +19,4 @@ def study_radio():
         messagebox.showinfo("Результат", f"Выбран: {var.get()}")
     
     tk.Button(window, text="Показать", command=show_choice).pack(pady=10)
+    
